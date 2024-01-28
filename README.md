@@ -45,7 +45,7 @@ This file format is intended for software developers involved in building applic
 
 <a id="version"></a>
 #### Version information and release history
-Quran File Format version 1.0 can be found [here](#download)
+Quran File Format version 1.0 can be found [https://github.com/solomancode/qur-specs/releases/download/v1.0/uthmani.qur](#download)
 
 ## **II. File Structure**
 
