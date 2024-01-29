@@ -1,9 +1,9 @@
 # Quran File Format
 Proposal for a standard file format for Quran content allowing for storing, retrieval of Quran textual content in a more efficient and indexable structure.
 
-📈 46% smaller than the regular textual format
-🗜️ Gzipped version is 75% smaller
-💿 Web decoder available, More to come soon inshaa Allah.
+- 📈 46% smaller than the regular textual format
+- 🗜️ Gzipped version is 75% smaller
+- 💿 Web decoder available, More to come soon inshaa Allah.
 
 ![Quran File Format](banner.svg)
 
