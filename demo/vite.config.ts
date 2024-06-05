@@ -25,7 +25,7 @@ export default defineConfig({
   // },
 
   build: {
-    outDir: '../../../../dist/packages/quran/specs/demo',
+    outDir: '../gh-pages',
     reportCompressedSize: true,
     commonjsOptions: {
       transformMixedEsModules: true,
