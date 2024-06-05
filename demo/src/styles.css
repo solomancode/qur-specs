@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'uthmani';
+  src: url('./assets/uthmani.ttf') format('truetype');
+}
+
+body {
+  font-family: 'uthmani';
+  font-size: 32pt;
+}
