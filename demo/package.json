@@ -1,0 +1,16 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "scripts": {
+    "start": "vite serve"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@hudabook/qvf-svg-renderer": "^0.0.4",
+    "@hudabook/qur": "^0.0.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
