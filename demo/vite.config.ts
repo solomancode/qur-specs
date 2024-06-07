@@ -2,9 +2,10 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { nxViteTsPaths } from '@nx/vite/plugins/nx-tsconfig-paths.plugin';
+import path from 'path';
 
 export default defineConfig({
-  root: __dirname,
+  root: path.resolve(__dirname, 'src'),
   cacheDir: '../../../../node_modules/.vite/packages/quran/specs/demo',
 
   server: {
