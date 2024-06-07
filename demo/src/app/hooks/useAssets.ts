@@ -20,7 +20,7 @@ export const useAssets = () => {
 
   const load_word_qvf = async (word: string) => {
     if (qvf.current.has(word)) return qvf.current.get(word)!;
-    const r = await fetch(`/assets/qvf/${word}.qvf`);
+    const r = await fetch(`assets/qvf/${word}.qvf`);
     const buf = await r.arrayBuffer();
     qvf.current.set(word, buf);
     return buf;
