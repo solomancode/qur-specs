@@ -1,10 +1,11 @@
 {
   "name": "demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "```sh npm install --legacy-peer-deps npm start ```",
   "main": "postcss.config.js",
   "scripts": {
-    "start": "vite serve"
+    "start": "vite serve",
+    "build": "vite build"
   },
   "keywords": [],
   "dependencies": {
@@ -12,5 +13,6 @@
     "@hudabook/qur": "^0.0.2"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {}
 }
