@@ -25,7 +25,7 @@ export default defineConfig({
   // },
 
   build: {
-    outDir: '../gh-pages',
+    outDir: '../docs',
     reportCompressedSize: true,
     commonjsOptions: {
       transformMixedEsModules: true,
